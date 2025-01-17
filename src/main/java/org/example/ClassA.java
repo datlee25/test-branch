@@ -12,6 +12,6 @@ public class ClassA {
     public static void main(String[] args) {
         ClassA classA = new ClassA();
         ClassA.ClassB classB = classA.new ClassB();
-        System.out.println(classB.getA());
+        System.out.println("f1");
     }
 }
